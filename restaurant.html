@@ -5,7 +5,48 @@
 </head>
 <body>
 <div class='header'><img src='images/terrasse.png' id='image'></div>
-<div class='body'>aaaaa</div>
+<div class='body'>
+    <header id="mainheader">
+        <nav id="mainnav">
+                <a href="#">MENU</a>&ensp;
+                <a href="#">RESERVATION</a>&ensp;
+                <a href="#">PLAT</a>&ensp; 
+                <a href="#">A PROPOS</a>&ensp;              
+        </nav>
+    </header>
+    <section id="pagecontent">
+        <main id="leftcol"><img src='images/ALLOKO.jpg' id='image2'></main>
+        <aside id="rightcol">
+            <H1>ENVOYEZ UN MESSAGE</H1>
+            <FORM id="frmcontact" action="#">
+                <div>
+                    <div>
+                        <label for="fname">NOM</label>
+                            <INput type="text" name="fname" id="fname"></INput>
+                    </div>
+                    <div>
+                        <label for="lname">PRENOM</label>
+                            <INput type="text" name="Lname" id="Lname"></INput>
+                    </div>
+                    <div>
+                        <label for="tel">TELEPHONE</label>
+                            <INput type="number" name="tel" id="tel"></INput>
+                    </div>
+                    <div>
+                        <label for="mail">EMAIL</label>
+                            <INput type="text" name="mail" id="mail"></INput>
+                    </div> 
+                    <div>
+                        <label for="mess">MESSAGE</label>
+                        <textarea name="mess"  id="mess"></textarea>
+                    </div> 
+                </div>
+                <input type="submit" value="ENVOYER"></INput>
+            </FORM>
+
+        </aside> 
+        </section> 
+</div>
 <div class='footer'>
     <div id="horaire">
         <div id="horaire_title">HORAIRE:</div>
@@ -72,5 +113,14 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+    aside {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: skyblue;
+  height: 360px;
+}
 </style>
 
