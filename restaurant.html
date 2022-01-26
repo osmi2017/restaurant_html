@@ -18,30 +18,30 @@
         <main id="leftcol"><img src='images/ALLOKO.jpg' id='image2'>
         <aside id="rightcol">
             <H1>ENVOYEZ UN MESSAGE</H1>
-            <FORM id="frmcontact" action="#">
+            <FORM name="monform" id="frmcontact" action="#" method="get">
                 <div>
                     <div>
                         <label for="fname">NOM</label>
-                            <INput type="text" name="fname" id="fname"></INput>
-                    </div>
+                            <INput type="text" name="fname" id="fname" ></INput>
+                    </div></br>
                     <div>
                         <label for="lname">PRENOM</label>
                             <INput type="text" name="Lname" id="Lname"></INput>
-                    </div>
+                    </div></br>
                     <div>
                         <label for="tel">TELEPHONE</label>
                             <INput type="number" name="tel" id="tel"></INput>
-                    </div>
+                    </div></br>
                     <div>
                         <label for="mail">EMAIL</label>
                             <INput type="text" name="mail" id="mail"></INput>
-                    </div> 
+                    </div></br> 
                     <div>
                         <label for="mess">MESSAGE</label>
                         <textarea name="mess"  id="mess"></textarea>
-                    </div> 
-                </div>
-                <input type="submit" value="ENVOYER"></INput>
+                    </div></br> 
+                </div></br>
+                <input type="submit" value="ENVOYER" style="width:402px"></INput></br>
             </FORM>
         </aside> 
 </main>
@@ -57,7 +57,6 @@
         <div id="contacte_content"><span>00000000</span><br/><span>1111111111</span></div>
     </div>
 </div>
-
 
 
 </body>
@@ -119,8 +118,19 @@
   margin-left: 15px;
   float: right;
   font-style: italic;
-  background-color: skyblue;
   height: 360px;
 }
+main {
+    margin-top: 1%;
+}
+input, textarea, select {
+  width : 250px;
+  margin: 10;
+}
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
 </style>
-
