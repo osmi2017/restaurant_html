@@ -8,13 +8,15 @@
 <div class='body'>
     <header id="mainheader">
         <nav id="mainnav">
-                <a href="#">MENU</a>&ensp;
-                <a href="#">RESERVATION</a>&ensp;
-                <a href="#">PLAT</a>&ensp; 
-                <a href="#">A PROPOS</a>&ensp;              
+                <a href="#pagecontent1">MENU</a>&ensp;
+                <a href="#pagecontent2">RESERVATION</a>&ensp;
+                <a href="#pagecontent3">PLAT</a>&ensp; 
+                <a href="#pagecontent4">A PROPOS</a>&ensp;              
         </nav>
     </header>
-    <section id="pagecontent">
+    <div class="mycolor">
+    <section id="pagecontent1">
+        
         <main id="leftcol"><img src='images/ALLOKO.jpg' id='image2'>
         <aside id="rightcol">
             <H1>ENVOYEZ UN MESSAGE</H1>
@@ -45,8 +47,27 @@
             </FORM>
         </aside> 
 </main>
-        </section> 
+</section>
 </div>
+
+<div class="mycolor1"> 
+<section id="pagecontent2">
+    <h1>RESERVATION</H1>
+</section>
+</div>
+
+<div class="mycolor2">
+<section id="pagecontent3">
+    <h1>PLAT</H1>
+</section>
+</div>
+
+<div class="mycolor3">
+<section id="pagecontent4">
+    <h1>A PROPOS</H1>
+</section>
+</div>
+       
 <div class='footer'>
     <div id="horaire">
         <div id="horaire_title">HORAIRE:</div>
@@ -57,7 +78,6 @@
         <div id="contacte_content"><span>00000000</span><br/><span>1111111111</span></div>
     </div>
 </div>
-
 
 </body>
 </html>
@@ -100,9 +120,7 @@
         background-color:green;
         padding:5px
     }
-    .body{
-        background-color:yellow;
-    }
+    
     .footer{
         background-color:red;
         margin-top: 30%;
@@ -111,7 +129,9 @@
         padding:25px;
         padding-left: 50px;
         padding-right: 50px;
-    }
+    }  
+    
+   
     aside {
   width: 40%;
   padding-left: 15px;
@@ -132,5 +152,21 @@ label
 	display: block;
 	width: 150px;
 	float: left;
+}
+.mycolor{ 
+background-color:yellow;
+
+}
+.mycolor1{ 
+background-color:mediumvioletred;
+height: 360px;
+}
+.mycolor2{ 
+background-color:saddlebrown;
+height: 360px;
+}
+.mycolor3{ 
+background-color:peru;
+height: 360px;
 }
 </style>
